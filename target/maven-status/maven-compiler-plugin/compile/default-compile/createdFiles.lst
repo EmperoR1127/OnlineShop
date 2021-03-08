@@ -1,3 +1,4 @@
+com/laioffer/onlineShop/controller/OrderController.class
 com/laioffer/onlineShop/dao/CustomerDao.class
 com/laioffer/onlineShop/controller/CartController.class
 com/laioffer/onlineShop/service/CartItemService.class
@@ -15,8 +16,10 @@ com/laioffer/onlineShop/dao/ProductDao.class
 com/laioffer/onlineShop/entity/Authorities.class
 com/laioffer/onlineShop/log/PaymentAction.class
 com/laioffer/onlineShop/log/Logger.class
+com/laioffer/onlineShop/dao/SalesOrderDao.class
 com/laioffer/onlineShop/entity/CartItem.class
 com/laioffer/onlineShop/entity/Cart.class
+com/laioffer/onlineShop/service/SalesOrderService.class
 com/laioffer/onlineShop/entity/User.class
 com/laioffer/onlineShop/controller/HomePageController.class
 com/laioffer/onlineShop/entity/BillingAddress.class

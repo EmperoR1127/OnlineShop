@@ -1,6 +1,7 @@
 /Users/EmperoR/Documents/workspace/onlineShop/src/main/java/com/laioffer/onlineShop/entity/Authorities.java
 /Users/EmperoR/Documents/workspace/onlineShop/src/main/java/com/laioffer/onlineShop/dao/CustomerDao.java
 /Users/EmperoR/Documents/workspace/onlineShop/src/main/java/com/laioffer/onlineShop/service/CustomerService.java
+/Users/EmperoR/Documents/workspace/onlineShop/src/main/java/com/laioffer/onlineShop/dao/SalesOrderDao.java
 /Users/EmperoR/Documents/workspace/onlineShop/src/main/java/com/laioffer/onlineShop/SecurityConfig.java
 /Users/EmperoR/Documents/workspace/onlineShop/src/main/java/com/laioffer/onlineShop/log/Logger.java
 /Users/EmperoR/Documents/workspace/onlineShop/src/main/java/com/laioffer/onlineShop/controller/ProductController.java
@@ -8,6 +9,7 @@
 /Users/EmperoR/Documents/workspace/onlineShop/src/main/java/com/laioffer/onlineShop/service/ProductService.java
 /Users/EmperoR/Documents/workspace/onlineShop/src/main/java/com/laioffer/onlineShop/entity/User.java
 /Users/EmperoR/Documents/workspace/onlineShop/src/main/java/com/laioffer/onlineShop/service/CartItemService.java
+/Users/EmperoR/Documents/workspace/onlineShop/src/main/java/com/laioffer/onlineShop/controller/OrderController.java
 /Users/EmperoR/Documents/workspace/onlineShop/src/main/java/com/laioffer/onlineShop/service/CartService.java
 /Users/EmperoR/Documents/workspace/onlineShop/src/main/java/com/laioffer/onlineShop/entity/ShippingAddress.java
 /Users/EmperoR/Documents/workspace/onlineShop/src/main/java/com/laioffer/onlineShop/dao/CartItemDao.java
@@ -25,6 +27,7 @@
 /Users/EmperoR/Documents/workspace/onlineShop/src/main/java/com/laioffer/onlineShop/dao/ProductDao.java
 /Users/EmperoR/Documents/workspace/onlineShop/src/main/java/com/laioffer/onlineShop/controller/CartController.java
 /Users/EmperoR/Documents/workspace/onlineShop/src/main/java/com/laioffer/onlineShop/entity/Product.java
+/Users/EmperoR/Documents/workspace/onlineShop/src/main/java/com/laioffer/onlineShop/service/SalesOrderService.java
 /Users/EmperoR/Documents/workspace/onlineShop/src/main/java/com/laioffer/onlineShop/ApplicationConfig.java
 /Users/EmperoR/Documents/workspace/onlineShop/src/main/java/com/laioffer/onlineShop/controller/HomePageController.java
 /Users/EmperoR/Documents/workspace/onlineShop/src/main/java/com/laioffer/onlineShop/dao/CartDao.java
