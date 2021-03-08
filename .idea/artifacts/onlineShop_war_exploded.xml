@@ -48,6 +48,17 @@
           <element id="library" level="project" name="Maven: com.fasterxml.jackson.core:jackson-databind:2.11.3" />
           <element id="library" level="project" name="Maven: mysql:mysql-connector-java:8.0.18" />
           <element id="library" level="project" name="Maven: com.google.protobuf:protobuf-java:3.6.1" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-webmvc:5.2.10.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-web:5.2.10.RELEASE" />
+          <element id="library" level="project" name="Maven: jstl:jstl:1.2" />
+          <element id="library" level="project" name="Maven: taglibs:standard:1.1.2" />
+          <element id="library" level="project" name="Maven: org.springframework.security:spring-security-web:5.3.4.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework.security:spring-security-core:5.3.4.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework.security:spring-security-config:5.3.4.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework.security:spring-security-taglibs:5.3.4.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework.security:spring-security-acl:5.3.4.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework.webflow:spring-webflow:2.5.0.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework.webflow:spring-binding:2.5.0.RELEASE" />
         </element>
       </element>
       <element id="directory" name="META-INF">

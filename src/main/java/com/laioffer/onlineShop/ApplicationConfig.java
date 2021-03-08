@@ -2,12 +2,18 @@ package com.laioffer.onlineShop;
 
 import java.util.Properties;
 import javax.sql.DataSource;
+
+import com.laioffer.onlineShop.log.Logger;
+import com.laioffer.onlineShop.log.PaymentAction;
+import com.laioffer.onlineShop.log.ServerLogger;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.jdbc.datasource.DriverManagerDataSource;
 import org.springframework.orm.hibernate5.LocalSessionFactoryBean;
+import org.springframework.web.servlet.config.annotation.EnableWebMvc;
 
 @Configuration
+@EnableWebMvc
 public class ApplicationConfig {
     
     @Bean(name = "sessionFactory")
@@ -31,12 +37,22 @@ public class ApplicationConfig {
     }
     
     
-    private final Properties hibernateProperties() {
+    private Properties hibernateProperties() {
         Properties hibernateProperties = new Properties();
         hibernateProperties.setProperty("hibernate.hbm2ddl.auto", "update");
         hibernateProperties.setProperty("hibernate.dialect", "org.hibernate.dialect.MySQL5InnoDBDialect");
         hibernateProperties.setProperty("hibernate.show_sql", "true");
         return hibernateProperties;
+    }
+    
+    @Bean
+    public Logger getLogger() {
+        return new ServerLogger();
+    }
+    
+    @Bean
+    public PaymentAction paymentAction() {
+        return new PaymentAction();
     }
 }
 
